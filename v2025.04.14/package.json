@@ -1,0 +1,18 @@
+{
+  "name": "v2025.04.14",
+  "version": "0.0.1",
+  "description": "Primeiros teste com backend no 3ds",
+  "main": "index.js",
+  "scripts": {
+    "test": "TESTE",
+    "start": "node index.js"
+  },
+  "author": "Bryan Prinz",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0",
+    "sequelize": "^6.37.7"
+  }
+}
