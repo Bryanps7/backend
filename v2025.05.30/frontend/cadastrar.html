@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="progCadastrar.js"defer></script>
+    <title>Principal</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Principal</a>
+            <a href="./cadastrar.html">Cadastrar</a>
+            <a href="./listar.html">Listar</a>
+            <a href="./atualizar.html">Atualizar</a>
+            <a href="./apagar.html">Apagar</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Cadastrar</h1>
+        <br>
+        <form>
+            <label for="numPedido">Digite o número do Pedido:</label><br>
+            <input type="text" id="numPedido"><br><br>
+            <label for="nomeProduto">Digite o nome do Produto:</label><br>
+            <input type="text" id="nomeProduto"><br><br>
+            <label for="quant">Digite a quantidade do Produto:</label><br>
+            <input type="text" id="quant"><br><br>
+            <label for="unitario">Digite o valor unitário do Produto:</label><br>
+            <input type="text" id="unitario"><br><br>
+            <button type="submit" id="btnCadastrar">Cadastrar</button><br><br>
+        </form>
+        <div id="res"></div>
+    </main>
+</body>
+</html>
