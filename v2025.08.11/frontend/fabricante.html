@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./progFab.js" defer></script>
+    <title>Sistema</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./fabricante.html">Fabricante</a>
+            <a href="./entrega.html">Entrega</a>
+            <a href="./produto.html">Produto</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" placeholder="Nome Fabricante"><br><br>
+                <button type="submit" id="cadastrarFab">Cadastrar Fabricante</button><br>
+            </form>
+
+            <div id="resFab"></div>
+        </section>
+
+        <section>
+            <form>
+                <label for="codFabricante">Código:</label><br>
+                <input type="text" id="codFabricante" placeholder="Nome Fabricante"><br><br>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nomeAtual" placeholder="Nome Fabricante"><br><br>
+                <button type="submit" id="atualizarFab">Atualizar Fabricante</button><br>
+            </form>
+
+            <div id="resAtualFab"></div>
+        </section>
+
+        <section>
+            <form>
+                <label for="codFab">Código:</label><br>
+                <input type="text" id="codFab" placeholder="Cod Fabricante"><br><br>
+                <button type="submit" id="apagarFab">Apagar Fabricante</button><br>
+            </form>
+
+            <div id="resApagarFab"></div>
+        </section>
+
+        <section>
+            <br>
+            <button type="submit" id="listarFab">Listar Fabricante</button><br>
+            <div id="resFabList"></div>
+        </section>
+    </main>
+
+</body>
+
+</html>
