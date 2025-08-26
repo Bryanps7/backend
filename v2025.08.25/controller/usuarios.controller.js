@@ -1,25 +1,26 @@
 const Usuarios = require('../model/Usuarios')
 
-// rota de Autenticação
+// rota Login (autenticação)
 const login = (req, res) => {
     const valores = req.body
+    console.log(valores.nome)
+    console.log(valores.senha)
 
-    console.log(valores.nome);
-    console.log(valores.senha);
-      
-    const user = Usuarios.find(val => val.nome === valores.nome && val.senha === valores.senha)
-    console.log(user);
-    
+    const user = Usuarios.find(val => val.nome == valores.nome && val.senha === valores.senha)
+    console.log(user)
 
-    if(user) {
-        res.status(200).json({
-            message: "tk123"
-        })
+    if (user) {
+        res.status(200).json({ message: "tk123" })
     } else {
-        res.status(401).json({
-            message: "Credenciais Inválidas!"
-        })
+        res.status(401).json({ message: "Credenciais Inválidas!" })
     }
 }
 
-module.exports = { login }
+const listar = (req, res) => {
+    res.status(200).json({message: Usuarios.map(val => ({
+        id: val.id,
+        nome: val.nome
+    }))})
+}
+
+module.exports = { login, listar }
