@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Pedidos</title>
+
+    <link rel="stylesheet" href="/src/css/main.css">
+    <script src="/src/js/pedido.js" defer></script>
+</head>
+<body>
+    <div id="especial">
+        <div class="div" id="div-cadastrar">
+            <h1>Cadastrar Pedidos</h1>
+            <input type="number" id="clienteC" placeholder="ID do Cliente">
+            <input type="number" id="pratoC" placeholder="ID do Prato">
+            <input type="date" id="dateC" placeholder="Data do Pedido">
+            <input type="number" id="quantidadeC" placeholder="Quantidade de Pratos">
+            <input type="number" id="valorC" placeholder="Valor Total">
+            
+            <button id="btn-cadastrar">Cadastrar</button>
+            <div id="res-cadastrar"></div>
+        </div>
+        
+        <div class="div" id="div-listar">
+            <h1>Listar Pedidos</h1>
+            <button id="btn-listar">Listar</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <td>Cliente</td>
+                        <td>Prato</td>
+                        <td>Data Pedido</td>
+                        <td>Quantidade</td>
+                        <td>Valor Total</td>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="div" id="div-atualizar">
+            <h1>Atualizar Pedidos</h1>
+            <input type="number" id="idU" placeholder="ID do Pedido"><br>
+    
+            <input type="number" id="clienteU" placeholder="ID do Cliente">
+            <input type="number" id="pratoU" placeholder="ID do Prato">
+            <input type="date" id="dateU" placeholder="Data do Pedido">
+            <input type="number" id="quantidadeU" placeholder="Quantidade de Pratos">
+            <input type="number" id="valorU" placeholder="Valor Total">
+            
+            <button id="btn-atualizar">Atualizar</button>
+            <div id="res-atualizar"></div>
+        </div>
+    
+        <div class="div" id="div-apagar">
+            <h1>Apagar Pedidos</h1>
+            <input type="number" id="idD" placeholder="ID do Pedido"><br>
+            
+            <button id="btn-apagar">Apagar</button>
+            <div id="res-apagar"></div>
+        </div>
+    </div>
+    
+    <footer>
+        Feito por: Bryan Prinz
+    </footer>
+</body>
+</html>
