@@ -23,4 +23,16 @@ const listar = (req, res) => {
     }))})
 }
 
+const buscarPorId = (req, res) => {
+    const user = Usuarios.find(val => val.id == req.params.id)
+    console.log(user);
+    
+    if (user) {
+        res.status(200).json(user)
+        
+    } else {
+        
+    }
+}
+
 module.exports = { login, listar }
