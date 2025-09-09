@@ -22,7 +22,7 @@ const cadastrar = async (req, res) => {
     }
 }
 
-const listar = async (req, req) => {
+const listar = async (req, res) => {
     try {
         const cliente = await Cliente.findAll()
         res.status(200).json(cliente)

@@ -2,7 +2,7 @@ const Cliente = require('../model/Cliente')
 const { comparePassword } = require('../service/bcrypt.service')
 const { generateToken } = require('../service/jwt.service')
 
-async function login(req, res) {
+const login = async (req, res) => {
     try {
         const valores = req.body
         const cliente = await Cliente.findOne({ where: { email: valores.email } })
@@ -19,7 +19,7 @@ async function login(req, res) {
 
         const token = generateToken({ id: cliente.codCliente, email: cliente.email })
         res.status(200).json({
-            message: "Login realizado com sucesso!", 
+            message: "Login realizado com sucesso!",
             token
         })
 
@@ -30,4 +30,4 @@ async function login(req, res) {
     }
 }
 
-module.exports = { login}
+module.exports = { login }
