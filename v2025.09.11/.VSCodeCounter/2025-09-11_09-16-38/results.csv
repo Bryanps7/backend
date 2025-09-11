@@ -1,0 +1,19 @@
+"filename", "language", "JSON", "JavaScript", "MS SQL", "comment", "blank", "total"
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\controller\auth.controller.js", "JavaScript", 0, 33, 0, 0, 11, 44
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\controller\cliente.controller.js", "JavaScript", 0, 17, 0, 0, 2, 19
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\controller\pedido.controller.js", "JavaScript", 0, 57, 0, 0, 2, 59
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\controller\prato.controller.js", "JavaScript", 0, 13, 0, 0, 2, 15
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\db\conn.js", "JavaScript", 0, 14, 0, 0, 2, 16
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\index.js", "JavaScript", 0, 32, 0, 4, 12, 48
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\middleware\auth.middleware.js", "JavaScript", 0, 21, 0, 0, 10, 31
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\model\Cliente.js", "JavaScript", 0, 29, 0, 0, 3, 32
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\model\Pedido.js", "JavaScript", 0, 41, 0, 0, 3, 44
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\model\Prato.js", "JavaScript", 0, 25, 0, 0, 3, 28
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\model\rel.js", "JavaScript", 0, 24, 0, 0, 6, 30
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\modelos\modelo_fisico.sql", "MS SQL", 0, 0, 69, 24, 16, 109
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\package-lock.json", "JSON", 1203, 0, 0, 0, 1, 1204
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\package.json", "JSON", 20, 0, 0, 0, 1, 21
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\service\bcrypt.service.js", "JavaScript", 0, 9, 0, 0, 2, 11
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\service\jwt.service.js", "JavaScript", 0, 14, 0, 0, 3, 17
+"c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\sync.js", "JavaScript", 0, 14, 0, 0, 2, 16
+"Total", "-", 1223, 343, 69, 28, 81, 1744

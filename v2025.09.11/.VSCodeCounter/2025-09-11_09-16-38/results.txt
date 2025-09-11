@@ -1,0 +1,50 @@
+Date : 2025-09-11 09:16:38
+Directory : c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11
+Total : 17 files,  1635 codes, 28 comments, 81 blanks, all 1744 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          2 |      1,223 |          0 |          2 |      1,225 |
+| JavaScript |         14 |        343 |          4 |         63 |        410 |
+| MS SQL     |          1 |         69 |         24 |         16 |        109 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                             | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                |         17 |      1,635 |         28 |         81 |      1,744 |
+| . (Files)                                                                                        |          4 |      1,269 |          4 |         16 |      1,289 |
+| controller                                                                                       |          4 |        120 |          0 |         17 |        137 |
+| db                                                                                               |          1 |         14 |          0 |          2 |         16 |
+| middleware                                                                                       |          1 |         21 |          0 |         10 |         31 |
+| model                                                                                            |          4 |        119 |          0 |         15 |        134 |
+| modelos                                                                                          |          1 |         69 |         24 |         16 |        109 |
+| service                                                                                          |          2 |         23 |          0 |          5 |         28 |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                         | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\controller\auth.controller.js    | JavaScript |         33 |          0 |         11 |         44 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\controller\cliente.controller.js | JavaScript |         17 |          0 |          2 |         19 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\controller\pedido.controller.js  | JavaScript |         57 |          0 |          2 |         59 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\controller\prato.controller.js   | JavaScript |         13 |          0 |          2 |         15 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\db\conn.js                       | JavaScript |         14 |          0 |          2 |         16 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\index.js                         | JavaScript |         32 |          4 |         12 |         48 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\middleware\auth.middleware.js    | JavaScript |         21 |          0 |         10 |         31 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\model\Cliente.js                 | JavaScript |         29 |          0 |          3 |         32 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\model\Pedido.js                  | JavaScript |         41 |          0 |          3 |         44 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\model\Prato.js                   | JavaScript |         25 |          0 |          3 |         28 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\model\rel.js                     | JavaScript |         24 |          0 |          6 |         30 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\modelos\modelo_fisico.sql        | MS SQL     |         69 |         24 |         16 |        109 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\package-lock.json                | JSON       |      1,203 |          0 |          1 |      1,204 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\package.json                     | JSON       |         20 |          0 |          1 |         21 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\service\bcrypt.service.js        | JavaScript |          9 |          0 |          2 |         11 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\service\jwt.service.js           | JavaScript |         14 |          0 |          3 |         17 |
+| c:\Users\bryan_prinz-silva\Documents\GitHub\backend\v2025.09.11\sync.js                          | JavaScript |         14 |          0 |          2 |         16 |
+| Total                                                                                            |            |      1,635 |         28 |         81 |      1,744 |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
