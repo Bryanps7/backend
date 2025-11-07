@@ -1,0 +1,21 @@
+Processador(es): 1 processador(es) instalado(s). [01]: Intel64 Family 6 Model 191 Stepping 2 GenuineIntel ~2500 Mhz
+Tipo de sistema: x64-based PC
+
+Nome do sistema operacional: Microsoft Windows 11 Enterprise
+Versão do sistema operacional: 10.0.26100 N/A compilação 26100
+
+node: v22.12.0
+npm: 10.9.0
+
+cors: 2.8.5,
+express: 5.1.0,
+mysql2: 3.15.3,
+sequelize: 6.37.7
+
+Navegador: Versão 142.0.7444.134 (Versão oficial) 64 bits
+
+MySQL Workbench: 8.0.40 Community
+
+SERVIDORES DE TESTE:
+- FRONTEND: LIVESERVER: 5500
+- BACKEND: localhost: 3000
