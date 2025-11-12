@@ -1,0 +1,40 @@
+Sistema de Controle de Vendas de Materiais
+
+Esportivos
+
+Uma loja de artigos esportivos deseja implantar um sistema de controle de vendas de
+materiais esportivos. Eles desejam que o registro de vendas (saídas) e compras (reposição
+- entrada) de itens sejam feitos para poder saber se existem e/ou quantos itens tem para a
+venda. Para a primeira versão do sistema, eles desejam controlar itens como: bolas de
+futebol, bolas de basquete, raquetes, tênis, camiseta, bermuda, meia,entre outros. Cada
+produto tem seu nome, marca, quantidade (default zero) e preço unitário. O sistema é
+interno e será operado por vendedores identificados pelo nome, email e senha. Só
+vendedores registrados (cadastrados) podem movimentar materiais esportivos através de
+login. Se o produto a ser vendido não tiver quantidade suficiente ou for inferior a zero, o
+sistema não pode permitir a venda e deve emitir um alerta que não existem produtos
+suficientes para a venda. Toda a movimentação dos materiais esportivos deve ser
+registrada com a data, código do item, código do vendedor que opera o sistema, assim
+como o tipo de movimento (entrada/saída) e sua quantidade de movimento.
+
+
+
+lista dos requisitos funcionais
+diagrama de caso de uso
+diagrama de classe
+modelo lógico do sistema
+físico do banco de dados com um conjunto de pré-cadastro de 3 registros por tabela
+lista de infraestrutura completa para implantar o sistema, incluindo a linguagem de programação utilizada
+interface principal com acesso a navegação
+
+
+
+. Se o vendedor estiver
+logado, deve mostrar o nome do vendedor logado, além de um botão de logout do sistema.
+Deve ter uma interface referente à gestão dos materiais existentes na loja e uma interface
+de gestão da movimentação. A tela de gestão de produtos deve listar os itens em uma
+tabela de modo automático sempre que acessada, deve ter a possibilidade de consultar o
+item pelo nome, e CRUD completo dos itens, onde o preenchimento de todos os campos
+são obrigatórios e um link de voltar à tela inicial. A tela de gestão de movimentação deve
+listar os produtos e suas quantidades em ordem alfabética, contendo o histórico de
+movimentação e deve permitir o cadastro da movimentação, contendo a data para registrar
+o histórico de movimento.
