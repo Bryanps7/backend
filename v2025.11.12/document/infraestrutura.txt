@@ -16,3 +16,6 @@ MySQL Workbench: 8.0.40 Community
 
 Navegador: Versão 142.0.7444.60 (Versão oficial) 64 bits
 
+SERVIDOR DE TESTE: 
+- FRONTEND: LIVESERVER: 5500
+- BACKEND: localhost: 3000
